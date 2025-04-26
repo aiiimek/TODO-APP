@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 8rem;
+    color: rgb(135, 87, 223);
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 20px 20px rgba(137, 87, 223, 0.5);
+}
+
+p {
+    font-size: 0.8rem;
+    color: #888;
+}
